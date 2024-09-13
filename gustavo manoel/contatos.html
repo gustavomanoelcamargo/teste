@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Lembrancinhas - Cinturão Verde</title>
+        
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+            <h1><img src="logo.png" alt="logo da site Cinturão Verde"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Informações.html">Informações</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+
+<main>
+    <form>
+        <label for="nomesobrenome">Nome e sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="manoel gomes">
+
+        <label for="email">Email</label>
+        <input type="Email" id="email" class="input-padrao" required placeholder="seu Email@dominio.com">
+        
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+
+        <label for="mensagem">mensagem</label>
+        <textarea cols="60" rows="10" id="mensagem".class="input-padrao" required></textarea>
+        
+    <fieldset>
+
+        <legend>como prefere o nosso contato?</legend>
+
+        <label for="radio-imail"><input type="radio" name="contato" value="Email" id="radio-Email"> Email</label>
+        
+        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+
+        <label for="radio-whatsApp"><input type="radio" name="contato" value="whatsApp" id="radio-whatsApp" checked> WhatsApp</label>
+
+    </fieldset>
+
+    <legend>Qual horario prefere ser atendido?</legend>
+<div>
+    <select>
+        <option>Manha</option>
+        <option>Tarde</option>
+        <option>Noite</option>
+    </select>
+</div>
+    <label class="checkbox"><input type="checkbox">como gostario de receber nosssas novidas por Email ?</label>
+
+        <input type="submit" value="Enviar formulario" class="enviar">
+
+        <table>
+            <thead>
+                  <tr>
+                    <th>dia</th>
+                    <th>horario</th>
+                  </tr>
+            </thead>
+            <tbody>
+
+                  <tr>
+                    <td>segunda</td>
+                    <td>8h ~ 20h</td>
+                 </tr>
+                 <tr>
+                    <td>quarta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+                 <tr>
+                    <td>sexta</td>
+                    <td>8h ~ 20h</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </form>
+    </main>
+        <footer>
+            <img src="logo.png" alt="logo da site Cinturão Verde">
+            <p class="copyright">&copy; Copyright Gustavo Manoel - 2024</p>
+        </footer>
+
+        </body>
+</html>
